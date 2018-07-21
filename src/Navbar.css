@@ -1,0 +1,35 @@
+.Navbar {
+	background-color: rgb(49,66,63);
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 1.5rem;
+
+}
+
+.Navbar__Logo {
+	display: inline-block;
+	float: left;
+
+}
+.Navbar__Nav {
+	display:inline-block;
+	float: right;
+	margin-top:0;
+	margin-bottom: 0;
+}
+.Navbar__Nav li {
+	display: inline-block;
+	margin-right: 1rem;
+	float: left;
+}
+
+.Navbar a {
+	text-decoration: none;
+	color: white; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
