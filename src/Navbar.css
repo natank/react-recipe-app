@@ -28,8 +28,3 @@
 	color: white; 
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
