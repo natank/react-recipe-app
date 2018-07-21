@@ -1,8 +1,9 @@
 .RecipeCard {
-	width: 30%;
-	margin: 2rem 0.5rem;
+	width: 31%;
+	margin: 0 1%;
 	box-sizing: border-box;
-	display: inline-block;
+	float: left;
+	height: 40rem ;
 	background-color: white;
 	box-shadow: 2px 3px #888888;
 	margin-bottom: 2rem;

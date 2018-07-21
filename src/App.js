@@ -30,8 +30,6 @@ class App extends Component {
             image = {{src: "images/basil-dinner-food-8500.jpg", 
             alt: "pasta"}}
             title = { "Spaghetti" }
-            instructions= {"Open jar of Spaghetti sauce. Bring to simmer. Boil water. Cook pasta until done. \
-                            Combine pasta and sause"} 
             ingredients = {["pasta", "8 cups of water", "1 box of spaghetti"]} 
           />
         </div>

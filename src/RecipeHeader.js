@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 
 class RecipeHeader extends Component {
-  render() {
-    const {src, alt} = this.props.image
+  static defaultProps = {
+  	image: {src: "images/basil-dinner-food-8500.jpg", alt: "pasta"},
+  	title: "Default title"
+  } 
+  render() { 
+    const {image, title} = this.props;
     return (
       <div className="RecipeHeader">        
         <img className="RecipeCard__img" 
-        	src = {src} 
-        	alt= {alt}
+        	src = {image.src} 
+        	alt= {image.alt}
         />
-        <div class="container">
-        	<h1 className="RecipeHeader__title">{this.props.title}</h1>
+        <div className="container">
+        	<h1 className="RecipeHeader__title">{title}</h1>
         </div>
       </div>
     );
