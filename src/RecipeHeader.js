@@ -8,7 +8,9 @@ class RecipeHeader extends Component {
         	src = {this.props.image.src} 
         	alt= {this.props.image.alt}
         />
-        <h1 className="RecipeHeader__title">{this.props.title}</h1>
+        <div class="container">
+        	<h1 className="RecipeHeader__title">{this.props.title}</h1>
+        </div>
       </div>
     );
   }

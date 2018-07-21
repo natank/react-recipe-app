@@ -14,14 +14,15 @@ class RecipeCard extends Component {
         	image={this.props.image} 
         	title={this.props.title}
         />
-        
-        <RecipeIngredients 
-        	ingredients = {this.props.ingredients}
-        />
-        
-        <RecipeInstructions 
-        	instructions={this.props.instructions}
-        />
+        <div class="container">
+	        <RecipeIngredients 
+	        	ingredients = {this.props.ingredients}
+	        />
+	        
+	        <RecipeInstructions 
+	        	instructions={this.props.instructions}
+	        />
+        </div>
       </div>
     );
   }

@@ -1,10 +1,9 @@
 .RecipeCard {
-	width: 33%;
-	padding: 1rem;
+	width: 31%;
+	margin: 1rem;
 	box-sizing: border-box;
 	display: inline-block;
-
-
+	background-color: white;
 }
 
 .RecipeCard__img {

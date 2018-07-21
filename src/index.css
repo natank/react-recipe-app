@@ -8,3 +8,7 @@ body {
     clear: both;
     display: table;
 }
+
+.container {
+	padding: 0 1rem;
+}
