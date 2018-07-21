@@ -7,20 +7,21 @@ import './RecipeCard.css';
 
 class RecipeCard extends Component {
   render() {
+  	const {image, title, ingredients, instructions} = this.props;
     return (
       <div className="RecipeCard">
         
         <RecipeHeader 
-        	image={this.props.image} 
-        	title={this.props.title}
+        	image={image} 
+        	title={title}
         />
         <div class="container">
 	        <RecipeIngredients 
-	        	ingredients = {this.props.ingredients}
+	        	ingredients = {ingredients}
 	        />
 	        
 	        <RecipeInstructions 
-	        	instructions={this.props.instructions}
+	        	instructions={instructions}
 	        />
         </div>
       </div>
